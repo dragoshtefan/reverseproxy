@@ -1,0 +1,1 @@
+local-exec: go build ../main.go

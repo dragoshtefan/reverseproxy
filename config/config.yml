@@ -1,0 +1,5 @@
+tcp_proxies:
+  - listen_port: 8180
+    forward_address: "127.0.0.1:9190"
+  -listen_port: 8181
+    forward_address: "127.0.0.1:9191"
