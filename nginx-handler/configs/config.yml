@@ -1,0 +1,19 @@
+services:
+  - name: mongodb
+    listen_port: 27117
+    container_name: mongo-tc
+    container_port: 27017
+  - name: solace
+    listen_port: 8180
+    container_name: solace-tc
+    container_port: 8080
+  - name: wiremock
+    listen_port: 8181
+    container_name: wiremock-tc
+    container_port: 8080
+  - name: reducer
+    listen_port: 2345
+    container_name: reducer-tc
+    container_port: 2345
+    
+    

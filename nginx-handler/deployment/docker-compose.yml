@@ -1,0 +1,10 @@
+services:
+  nginx-proxy:
+    image: nginx
+    ports:
+      - 27017:27017
+      - 8180:8180
+      - 8181:8181
+      - 2345:2345
+    volumes:
+      - ${NGINX_FILE}:/etc/nginx/nginx.conf
